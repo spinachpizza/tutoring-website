@@ -40,7 +40,7 @@ export default function home() {
 
             <div className="review-box">
                 <p style={{fontSize:'24px', fontWeight:'400'}}> Great 4.2 out of 5 </p>
-                <img src="public/tp.png" alt="TP" style={{width:'220px', height:'60px', marginLeft:'20px'}}/>
+                <img src="tp.png" alt="TP" style={{width:'220px', height:'60px', marginLeft:'20px'}}/>
             </div>
 
             <div className="intro-box">
