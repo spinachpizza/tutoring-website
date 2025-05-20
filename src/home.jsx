@@ -34,7 +34,7 @@ export default function home() {
                     <RoundedButton color="grey">Find Out More</RoundedButton>
                 </div>
                 <div className="standard">
-                    <img src="public/img.png" alt="Pic" id="pic"/>
+                    <img src="img.png" alt="Pic" id="pic"/>
                 </div>
             </div>
 

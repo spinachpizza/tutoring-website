@@ -22,7 +22,7 @@ export default function navbar() {
     return (
         <div className="top-bar">
             <div className="standard">
-                <img src="public/logo.png" alt="Logo" style={{width:'100px', height:'50px', marginLeft:'150px'}}/>
+                <img src="logo.png" alt="Logo" style={{width:'100px', height:'50px', marginLeft:'150px'}}/>
                 <h1 className="title-name" style={{ fontSize:'24px', fontWeight:'500', color:'white'}}>HofE Tutors</h1>
             </div>
             <div className="top-button-container">
