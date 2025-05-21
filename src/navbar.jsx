@@ -27,7 +27,7 @@ export default function navbar() {
     return (
         <div className="top-bar">
             <div className="standard">
-                <img src="public/logo.png" alt="Logo" style={{width:'100px', height:'50px', marginLeft:'150px'}}/>
+                <img src="logo.png" alt="Logo" style={{width:'100px', height:'50px', marginLeft:'150px'}}/>
                 <button onClick={() => navigate('/')} style={{ fontSize:'28px', fontWeight:'700', color:'white', background:'none', border:'none', cursor:'pointer'}}> HofE Tutors </button>
             </div>
             <div className="top-button-container">
