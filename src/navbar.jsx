@@ -37,7 +37,7 @@ export default function navbar() {
                 <Button onClick={() => alert('Clicked!')}>About Us</Button>
                 <Button onClick={() => alert('Clicked!')}>Join Us</Button>
                 <Button onClick={() => navigate('/contact')}>Contact Us</Button>
-                <Button onClick={() => alert('Clicked!')}>...</Button>
+                <Button onClick={() => navigate('Clicked!')}>...</Button>
             </div>
         </div>
     )
