@@ -8,6 +8,11 @@ function Button({ onClick, children, disabled }) {
       disabled={disabled}
       style={{
         color:'white',
+          cursor: 'pointer',
+          border: 'none',
+          background: 'none',
+          fontSize: '20px',
+          margin: '20px',
       }}
     >
       {children}
@@ -22,15 +27,16 @@ export default function navbar() {
     return (
         <div className="top-bar">
             <div className="standard">
-                <img src="logo.png" alt="Logo" style={{width:'100px', height:'50px', marginLeft:'150px'}}/>
-                <h1 className="title-name" style={{ fontSize:'24px', fontWeight:'500', color:'white'}}>HofE Tutors</h1>
+                <img src="public/logo.png" alt="Logo" style={{width:'100px', height:'50px', marginLeft:'150px'}}/>
+                <button onClick={() => navigate('/')} style={{ fontSize:'28px', fontWeight:'700', color:'white', background:'none', border:'none', cursor:'pointer'}}> HofE Tutors </button>
             </div>
             <div className="top-button-container">
                 <Button onClick={() => navigate('/')}>Home</Button>
-                <Button onClick={() => alert('Clicked!')}>FAQ</Button>
+                <Button onClick={() => navigate('./faq')}>FAQ</Button>
                 <Button onClick={() => navigate('/resources')}>Resources</Button>
                 <Button onClick={() => alert('Clicked!')}>About Us</Button>
                 <Button onClick={() => alert('Clicked!')}>Join Us</Button>
+                <Button onClick={() => navigate('/contact')}>Contact Us</Button>
                 <Button onClick={() => alert('Clicked!')}>...</Button>
             </div>
         </div>
